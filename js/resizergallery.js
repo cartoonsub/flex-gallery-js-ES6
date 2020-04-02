@@ -4,6 +4,7 @@
  	window.onresize = function(){shangeSizeImage_tseries("#containerGallery", 10)};
  };
 
+
 function shangeSizeImage_tseries(containerGallery, gap = 0) {
 	console.log('android');
 	let marginForImage = gap;//расстояние между изображениями
